@@ -23,12 +23,13 @@
     }
 }
 
-.spotifyframes img{
+.spotifyframes iframe{
     transform: translate(-30px, 10px);
     margin: 0;
 
     @media (min-width: 321px) {
         padding: 40px;
+        margin-left: 5px;
     }
 
 }
@@ -48,3 +49,8 @@
     }
 }
 
+.spotifymob iframe {
+    margin: 0;
+    height: 225px;
+    width: 298px;
+}
