@@ -1,0 +1,45 @@
+@media (min-width: 321px) {
+  .parteTopicos figure {
+    display: inline-block;
+    margin-top: 110px;
+    transform: translate(300px, -90px);
+    margin-left: -15px; } }
+
+.parteTopicos h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 15px; }
+  @media (min-width: 321px) {
+    .parteTopicos h2 {
+      margin-left: 250px;
+      padding-top: 50px;
+      font-size: 48px; } }
+
+.parteTopicos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 104px;
+  width: 104px; }
+
+.parteTopicos figcaption {
+  font-family: 'IBM Plex Sans - Semi Bold', sans-serif;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center; }
+  @media (min-width: 321px) {
+    .parteTopicos figcaption {
+      text-align: center;
+      height: 64px;
+      width: 220px;
+      padding-top: 25px; } }
+
+@media (min-width: 321px) {
+  .parteTopicos {
+    height: 426px; } }
+
+/*# sourceMappingURL=topicos.css.map */

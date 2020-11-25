@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.raworld {
+    text-decoration: line-through;
+}
+
+.primerInfo h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-left: 15px;
+
+    @media (min-width: 321px) {
+        font-size: 64px;
+    }
+}
+
+.primerInfo p {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+.primerInfo button {
+    background: #00F3BB;
+    border: none;
+    font-family: 'IBM Plex Mono', sans-serif;
+    height: 48px;
+    width: 288px;
+    margin-left: 15px;
+    
+    @media (min-width: 321px) {
+        cursor: pointer;
+    }
+}
+
+.primerInfo button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #ffff;
+}   
+.paleabajo::before {
+    content: "\a";
+    white-space: pre;
+}
+
+.paleabajo {
+    @media (min-width: 321px) {
+        display: inline-block;
+        
+    }
+}
+
+.dotblue {
+    @media (min-width: 321px) {
+        color: #0000EC;
+    }
+}
+
+
+
+.titdesktop {
+    display: none;
+
+    @media (min-width: 321px) {
+        display: block;
+    }
+}
+
+.titmobile {
+    @media (min-width: 321px) {
+        display: none;
+    }
+}
+
+.yabajo::after {
+    @media (min-width:321px) {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+.primerInfo {
+    @media (min-width: 321px) {
+        margin-left: 120px;
+    }
+}

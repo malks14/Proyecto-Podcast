@@ -1,0 +1,39 @@
+.footercont {
+    @media (min-width: 321px) {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.footercont p {
+font-family: 'IBM Plex Mono', sans-serif;
+font-size: 14px;
+color: #060A24;
+letter-spacing: 0;
+line-height: 22px;
+text-align: center;
+padding-top: 5px;
+
+@media (min-width: 321px) {
+    margin-left: 70px;
+    margin-top: 23px;
+    
+    }
+}
+
+.iconsfoot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.iconsfoot i {
+    @media (min-width: 321px) {
+        padding-right: 40px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+}

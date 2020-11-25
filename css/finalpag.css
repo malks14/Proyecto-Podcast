@@ -1,0 +1,41 @@
+.finalpagina {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 11%, 100% 0%, 100% 100%, 0% 100%);
+  height: 341px;
+  width: 320px; }
+  @media (min-width: 321px) {
+    .finalpagina {
+      width: 100%;
+      height: 518px; } }
+
+.finalpagina p {
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+  padding-top: 64px; }
+  @media (min-width: 321px) {
+    .finalpagina p {
+      transform: translate(1%, 100px); } }
+
+.finalpagina button {
+  background: #00F3BB;
+  border: none;
+  height: 48px;
+  width: 288px;
+  font-family: 'IBM Plex Mono Medium', sans-serif;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  position: absolute;
+  transform: translate(5%, 17px); }
+  @media (min-width: 321px) {
+    .finalpagina button {
+      transform: translate(200%, 120px);
+      cursor: pointer; } }
+
+/*# sourceMappingURL=finalpag.css.map */

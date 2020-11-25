@@ -1,0 +1,26 @@
+.parteEntrevistas h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 15px; }
+
+.containerinvitadas img {
+  height: 243px;
+  width: 320px;
+  padding: 0; }
+  @media (min-width: 321px) {
+    .containerinvitadas img {
+      height: 364px;
+      width: 480px; } }
+
+.containerinvitadas {
+  margin: 0;
+  line-height: 0; }
+  @media (min-width: 321px) {
+    .containerinvitadas {
+      display: flex;
+      flex-wrap: wrap; } }
+
+/*# sourceMappingURL=entrevistas.css.map */

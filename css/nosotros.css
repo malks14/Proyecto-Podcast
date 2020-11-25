@@ -1,0 +1,51 @@
+.telefoNosotros img {
+  height: 519px;
+  width: 360px;
+  margin: 0;
+  position: relative;
+  top: -90px;
+  right: 20px;
+  margin-bottom: -90px; }
+  @media (min-width: 321px) {
+    .telefoNosotros img {
+      margin-top: -100px;
+      position: relative;
+      top: 20px; } }
+
+.parteNosotros h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 15px;
+  height: 84px;
+  width: 288px; }
+
+.parteNosotros p {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 15px;
+  width: 288px; }
+  @media (min-width: 321px) {
+    .parteNosotros p {
+      width: 464px; } }
+
+.parteNosotros {
+  margin: 0%; }
+  @media (min-width: 321px) {
+    .parteNosotros {
+      display: flex;
+      height: 500px;
+      justify-content: center; } }
+
+@media (min-width: 321px) {
+  .textoNosotros {
+    height: 204px;
+    width: 464px;
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=nosotros.css.map */
