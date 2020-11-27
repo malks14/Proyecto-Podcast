@@ -26,14 +26,28 @@ padding-top: 5px;
 
 .iconsfoot {
     display: flex;
+    padding: 0;
     justify-content: space-evenly;
     padding: 10px;
 }
 
 .iconsfoot i {
+    text-decoration:none;
+    color: #060A24;
     @media (min-width: 321px) {
         padding-right: 40px;
         margin-right: 30px;
         margin-top: 20px;
     }
 }
+
+.iconsfoot i:hover {
+    @media (min-width: 321px) {
+        transform: scale(1.2);
+    }
+    
+}
+
+
+
+

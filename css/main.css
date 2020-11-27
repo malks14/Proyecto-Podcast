@@ -195,7 +195,6 @@ body {
     display: none; } }
 
 .spotifymob iframe {
-  margin: 0;
   height: 225px;
   width: 298px; }
 
@@ -380,13 +379,21 @@ body {
 
 .iconsfoot {
   display: flex;
+  padding: 0;
   justify-content: space-evenly;
   padding: 10px; }
 
+.iconsfoot i {
+  text-decoration: none;
+  color: #060A24; }
+  @media (min-width: 321px) {
+    .iconsfoot i {
+      padding-right: 40px;
+      margin-right: 30px;
+      margin-top: 20px; } }
+
 @media (min-width: 321px) {
-  .iconsfoot i {
-    padding-right: 40px;
-    margin-right: 30px;
-    margin-top: 20px; } }
+  .iconsfoot i:hover {
+    transform: scale(1.2); } }
 
 /*# sourceMappingURL=main.css.map */
