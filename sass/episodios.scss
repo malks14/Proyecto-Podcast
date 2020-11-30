@@ -35,16 +35,17 @@
 
 }
 
-.spotifydesk {
+.spotifydesk iframe{
     display: none;
-
+    border: 0px;
     @media (min-width: 321px) {
         display: inline-block;
         
     }
 }
 
-.spotifymob {
+.spotifymob iframe{
+    border: 0px;
     @media (min-width: 321px) {
         display: none;
     }

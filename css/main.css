@@ -184,15 +184,18 @@ body {
       padding: 40px;
       margin-left: 5px; } }
 
-.spotifydesk {
-  display: none; }
+.spotifydesk iframe {
+  display: none;
+  border: 0px; }
   @media (min-width: 321px) {
-    .spotifydesk {
+    .spotifydesk iframe {
       display: inline-block; } }
 
-@media (min-width: 321px) {
-  .spotifymob {
-    display: none; } }
+.spotifymob iframe {
+  border: 0px; }
+  @media (min-width: 321px) {
+    .spotifymob iframe {
+      display: none; } }
 
 .spotifymob iframe {
   height: 225px;
