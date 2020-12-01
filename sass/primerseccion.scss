@@ -79,14 +79,14 @@ body {
 
 
 .paleabajo {
-    @media (min-width: 376px) {
+    @media (min-width: 415px) {
         display: inline-block;
         
     }
 }
 
 .dotblue {
-    @media (min-width: 376px) {
+    @media (min-width: 415px) {
         color: #0000EC;
     }
 }
@@ -94,19 +94,19 @@ body {
 .titdesktop {
     display: none;
 
-    @media (min-width: 376px) {
+    @media (min-width: 415px) {
         display: block;
     }
 }
 
 .titmobile {
-    @media (min-width: 376px) {
+    @media (min-width: 415px) {
         display: none;
     }
 }
 
 .yabajo::after {
-    @media (min-width:376px) {
+    @media (min-width:415px) {
         content: "\a";
         white-space: pre;
     }

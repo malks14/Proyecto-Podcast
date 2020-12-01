@@ -50,7 +50,7 @@
       margin-left: 230px; } }
   @media (min-width: 769px) {
     .finalpagina button {
-      transform: translate(200%, 120px);
+      transform: translate(120%, 120px);
       cursor: pointer; } }
 
 /*# sourceMappingURL=finalpag.css.map */

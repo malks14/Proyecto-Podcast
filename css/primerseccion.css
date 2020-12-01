@@ -61,25 +61,25 @@ body {
   content: "\a";
   white-space: pre; }
 
-@media (min-width: 376px) {
+@media (min-width: 415px) {
   .paleabajo {
     display: inline-block; } }
 
-@media (min-width: 376px) {
+@media (min-width: 415px) {
   .dotblue {
     color: #0000EC; } }
 
 .titdesktop {
   display: none; }
-  @media (min-width: 376px) {
+  @media (min-width: 415px) {
     .titdesktop {
       display: block; } }
 
-@media (min-width: 376px) {
+@media (min-width: 415px) {
   .titmobile {
     display: none; } }
 
-@media (min-width: 376px) {
+@media (min-width: 415px) {
   .yabajo::after {
     content: "\a";
     white-space: pre; } }

@@ -12,6 +12,10 @@
   z-index: 2; }
   @media (min-width: 376px) {
     .menuNavigation_logo {
+      left: 20px;
+      top: 10px; } }
+  @media (min-width: 415px) {
+    .menuNavigation_logo {
       left: 60px;
       top: 20px; } }
 
@@ -26,6 +30,9 @@
       justify-content: flex-end;
       margin-top: 10px; } }
   @media (min-width: 376px) {
+    .menuNavigation_button {
+      margin-right: 10px; } }
+  @media (min-width: 415px) {
     .menuNavigation_button {
       display: none; } }
 
@@ -44,7 +51,7 @@
   z-index: 1;
   background: #0000EC;
   font-family: 'IBM Plex Mono'; }
-  @media (min-width: 376px) {
+  @media (min-width: 415px) {
     .menuNavigation_list {
       display: flex;
       flex-direction: row;
@@ -67,7 +74,7 @@
 .menuNavigation_list li a {
   text-decoration: none;
   color: white; }
-  @media (min-width: 321px) {
+  @media (min-width: 415px) {
     .menuNavigation_list li a {
       color: #060A24;
       padding-left: 1px;

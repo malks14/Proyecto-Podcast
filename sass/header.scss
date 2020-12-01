@@ -1,5 +1,4 @@
 
-
 .menuNavigation {
     position: relative;
     display: flex;
@@ -16,6 +15,12 @@
     z-index: 2;
 
     @media (min-width: 376px) {
+        left: 20px;
+        top: 10px
+
+    }
+
+    @media (min-width: 415px) {
         left: 60px;
         top: 20px;
     }
@@ -34,6 +39,10 @@
     }
 
     @media (min-width: 376px) {
+        margin-right: 10px;
+    }
+
+    @media (min-width: 415px) {
         display: none;
     }
 }
@@ -56,7 +65,7 @@
     font-family: 'IBM Plex Mono'; 
 
   
-    @media (min-width: 376px) {
+    @media (min-width: 415px) {
         display: flex;
         flex-direction: row;
         background: #ffff;
@@ -86,7 +95,7 @@
     text-decoration: none;
     color: white;
 
-    @media (min-width: 321px) {
+    @media (min-width: 415px) {
         color: #060A24;
         padding-left: 1px;
         margin-right: 40px;
