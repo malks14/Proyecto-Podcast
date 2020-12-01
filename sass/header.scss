@@ -15,7 +15,7 @@
     top: 5px;
     z-index: 2;
 
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         left: 60px;
         top: 20px;
     }
@@ -28,6 +28,12 @@
     outline: none;
 
     @media (min-width: 321px) {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    @media (min-width: 376px) {
         display: none;
     }
 }
@@ -50,6 +56,10 @@
     font-family: 'IBM Plex Mono'; 
 
     @media (min-width: 321px) {
+       
+    }
+
+    @media (min-width: 376px) {
         display: flex;
         flex-direction: row;
         background: #ffff;

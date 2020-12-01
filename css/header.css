@@ -10,7 +10,7 @@
   left: 10px;
   top: 5px;
   z-index: 2; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .menuNavigation_logo {
       left: 60px;
       top: 20px; } }
@@ -21,6 +21,11 @@
   cursor: pointer;
   outline: none; }
   @media (min-width: 321px) {
+    .menuNavigation_button {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px; } }
+  @media (min-width: 376px) {
     .menuNavigation_button {
       display: none; } }
 
@@ -39,7 +44,7 @@
   z-index: 1;
   background: #0000EC;
   font-family: 'IBM Plex Mono'; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .menuNavigation_list {
       display: flex;
       flex-direction: row;

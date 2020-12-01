@@ -13,6 +13,10 @@
     padding: 0;
 
     @media (min-width: 321px) {
+        width: 375px;
+    }
+
+    @media (min-width: 376px) {
         height: 364px;
         width: 480px;
         
@@ -23,7 +27,7 @@
     margin: 0;
     line-height: 0;
 
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         display: flex;
         flex-wrap: wrap;
        

@@ -16,7 +16,8 @@ body {
     line-height: 42px;
     margin-left: 15px;
 
-    @media (min-width: 321px) {
+   
+    @media (min-width: 376px) {
         font-size: 64px;
     }
 }
@@ -37,23 +38,31 @@ body {
     height: 48px;
     width: 288px;
     margin-left: 15px;
-    
+
     @media (min-width: 321px) {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    
+    @media (min-width: 376px) {
         cursor: pointer;
     }
 }
 
-.primerInfo button:hover{
+.primerInfo button:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     color: #ffff;
-}   
+}
+
 .paleabajo::before {
     content: "\a";
     white-space: pre;
 }
 
+
 .paleabajo {
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         display: inline-block;
         
     }
@@ -70,26 +79,26 @@ body {
 .titdesktop {
     display: none;
 
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         display: block;
     }
 }
 
 .titmobile {
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         display: none;
     }
 }
 
 .yabajo::after {
-    @media (min-width:321px) {
+    @media (min-width:376px) {
         content: "\a";
         white-space: pre;
     }
 }
 
 .primerInfo {
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         margin-left: 120px;
     }
 }

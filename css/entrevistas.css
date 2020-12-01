@@ -12,13 +12,16 @@
   padding: 0; }
   @media (min-width: 321px) {
     .containerinvitadas img {
+      width: 375px; } }
+  @media (min-width: 376px) {
+    .containerinvitadas img {
       height: 364px;
       width: 480px; } }
 
 .containerinvitadas {
   margin: 0;
   line-height: 0; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .containerinvitadas {
       display: flex;
       flex-wrap: wrap; } }

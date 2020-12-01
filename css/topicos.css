@@ -1,4 +1,4 @@
-@media (min-width: 321px) {
+@media (min-width: 376px) {
   .parteTopicos figure {
     display: inline-block;
     margin-top: 110px;
@@ -12,7 +12,7 @@
   letter-spacing: 0;
   line-height: 42px;
   margin-left: 15px; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .parteTopicos h2 {
       margin-left: 250px;
       padding-top: 50px;
@@ -31,14 +31,14 @@
   color: #060A24;
   letter-spacing: 0;
   text-align: center; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .parteTopicos figcaption {
       text-align: center;
       height: 64px;
       width: 220px;
       padding-top: 25px; } }
 
-@media (min-width: 321px) {
+@media (min-width: 376px) {
   .parteTopicos {
     height: 426px; } }
 

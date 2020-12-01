@@ -5,6 +5,9 @@
   clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%); }
   @media (min-width: 321px) {
     .parteEpisodios {
+      width: 375px; } }
+  @media (min-width: 376px) {
+    .parteEpisodios {
       background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
       clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
       height: 1042px;
@@ -16,14 +19,14 @@
   color: #FFFFFF;
   padding-top: 64px;
   margin-left: 15px; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .parteEpisodios h2 {
       transform: translate(200px, 90px); } }
 
 .spotifyframes iframe {
   transform: translate(-30px, 10px);
   margin: 0; }
-  @media (min-width: 321px) {
+  @media (min-width: 376px) {
     .spotifyframes iframe {
       padding: 20px;
       transform: translate(40px, 10px); } }
@@ -33,6 +36,9 @@
   height: 232px;
   padding-top: 3px; }
   @media (min-width: 321px) {
+    .spotifymob iframe {
+      width: 360px; } }
+  @media (min-width: 376px) {
     .spotifymob iframe {
       display: inline-block;
       height: 232px;
