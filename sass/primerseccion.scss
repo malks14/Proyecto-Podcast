@@ -4,6 +4,16 @@ body {
     box-sizing: border-box;
 }
 
+.primerInfo {
+    @media (min-width: 376px) {
+        margin-left: 90px;
+    }
+
+    @media (min-width: 769px) {
+        margin-left: 120px;
+    }
+}
+
 .raworld {
     text-decoration: line-through;
 }
@@ -16,8 +26,12 @@ body {
     line-height: 42px;
     margin-left: 15px;
 
-   
     @media (min-width: 376px) {
+        font-size: 50px;
+        
+    }
+   
+    @media (min-width: 769px) {
         font-size: 64px;
     }
 }
@@ -44,8 +58,11 @@ body {
         margin-top: 20px;
     }
 
-    
     @media (min-width: 376px) {
+        margin-left: 150px;
+    }
+    
+    @media (min-width: 769px) {
         cursor: pointer;
     }
 }
@@ -69,12 +86,10 @@ body {
 }
 
 .dotblue {
-    @media (min-width: 321px) {
+    @media (min-width: 376px) {
         color: #0000EC;
     }
 }
-
-
 
 .titdesktop {
     display: none;
@@ -97,8 +112,3 @@ body {
     }
 }
 
-.primerInfo {
-    @media (min-width: 376px) {
-        margin-left: 120px;
-    }
-}

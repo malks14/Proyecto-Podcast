@@ -8,6 +8,10 @@
       width: 375px; } }
   @media (min-width: 376px) {
     .parteEpisodios {
+      height: 760px;
+      width: 100%; } }
+  @media (min-width: 769px) {
+    .parteEpisodios {
       background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
       clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
       height: 1042px;
@@ -21,12 +25,15 @@
   margin-left: 15px; }
   @media (min-width: 376px) {
     .parteEpisodios h2 {
+      margin-left: 100px; } }
+  @media (min-width: 769px) {
+    .parteEpisodios h2 {
       transform: translate(200px, 90px); } }
 
 .spotifyframes iframe {
   transform: translate(-30px, 10px);
   margin: 0; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .spotifyframes iframe {
       padding: 20px;
       transform: translate(40px, 10px); } }
@@ -39,6 +46,12 @@
     .spotifymob iframe {
       width: 360px; } }
   @media (min-width: 376px) {
+    .spotifymob iframe {
+      display: inline-block;
+      padding: 5px;
+      transform: translate(5px, 0px);
+      width: 330px; } }
+  @media (min-width: 769px) {
     .spotifymob iframe {
       display: inline-block;
       height: 232px;

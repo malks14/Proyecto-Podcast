@@ -50,6 +50,14 @@
       flex-direction: row;
       background: #ffff;
       justify-content: flex-end;
+      top: 10px;
+      left: 20px; } }
+  @media (min-width: 769px) {
+    .menuNavigation_list {
+      display: flex;
+      flex-direction: row;
+      background: #ffff;
+      justify-content: flex-end;
       top: 20px;
       left: -50px; } }
 
@@ -95,6 +103,13 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
+@media (min-width: 376px) {
+  .primerInfo {
+    margin-left: 90px; } }
+@media (min-width: 769px) {
+  .primerInfo {
+    margin-left: 120px; } }
+
 .raworld {
   text-decoration: line-through; }
 
@@ -106,6 +121,9 @@ body {
   line-height: 42px;
   margin-left: 15px; }
   @media (min-width: 376px) {
+    .primerInfo h1 {
+      font-size: 50px; } }
+  @media (min-width: 769px) {
     .primerInfo h1 {
       font-size: 64px; } }
 
@@ -130,6 +148,9 @@ body {
       margin-top: 20px; } }
   @media (min-width: 376px) {
     .primerInfo button {
+      margin-left: 150px; } }
+  @media (min-width: 769px) {
+    .primerInfo button {
       cursor: pointer; } }
 
 .primerInfo button:hover {
@@ -144,7 +165,7 @@ body {
   .paleabajo {
     display: inline-block; } }
 
-@media (min-width: 321px) {
+@media (min-width: 376px) {
   .dotblue {
     color: #0000EC; } }
 
@@ -163,10 +184,6 @@ body {
     content: "\a";
     white-space: pre; } }
 
-@media (min-width: 376px) {
-  .primerInfo {
-    margin-left: 120px; } }
-
 .parteEpisodios {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   height: 1203px;
@@ -176,6 +193,10 @@ body {
     .parteEpisodios {
       width: 375px; } }
   @media (min-width: 376px) {
+    .parteEpisodios {
+      height: 760px;
+      width: 100%; } }
+  @media (min-width: 769px) {
     .parteEpisodios {
       background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
       clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
@@ -190,12 +211,15 @@ body {
   margin-left: 15px; }
   @media (min-width: 376px) {
     .parteEpisodios h2 {
+      margin-left: 100px; } }
+  @media (min-width: 769px) {
+    .parteEpisodios h2 {
       transform: translate(200px, 90px); } }
 
 .spotifyframes iframe {
   transform: translate(-30px, 10px);
   margin: 0; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .spotifyframes iframe {
       padding: 20px;
       transform: translate(40px, 10px); } }
@@ -208,6 +232,12 @@ body {
     .spotifymob iframe {
       width: 360px; } }
   @media (min-width: 376px) {
+    .spotifymob iframe {
+      display: inline-block;
+      padding: 5px;
+      transform: translate(5px, 0px);
+      width: 330px; } }
+  @media (min-width: 769px) {
     .spotifymob iframe {
       display: inline-block;
       height: 232px;
@@ -227,6 +257,9 @@ body {
     .telefoNosotros img {
       margin-left: 30px; } }
   @media (min-width: 376px) {
+    .telefoNosotros img {
+      margin-right: -30px; } }
+  @media (min-width: 769px) {
     .telefoNosotros img {
       margin-top: -100px;
       position: relative;
@@ -257,7 +290,7 @@ body {
   @media (min-width: 321px) {
     .parteNosotros p {
       width: 360px; } }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .parteNosotros p {
       width: 464px; } }
 
@@ -265,11 +298,14 @@ body {
   margin: 0%; }
   @media (min-width: 376px) {
     .parteNosotros {
+      display: flex; } }
+  @media (min-width: 769px) {
+    .parteNosotros {
       display: flex;
       height: 500px;
       justify-content: center; } }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .textoNosotros {
     height: 204px;
     width: 464px;
@@ -292,18 +328,26 @@ body {
       width: 375px; } }
   @media (min-width: 376px) {
     .containerinvitadas img {
+      margin: -2px;
+      width: 385px; } }
+  @media (min-width: 769px) {
+    .containerinvitadas img {
       height: 364px;
       width: 480px; } }
 
 .containerinvitadas {
   margin: 0;
   line-height: 0; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .containerinvitadas {
       display: flex;
       flex-wrap: wrap; } }
 
 @media (min-width: 376px) {
+  .parteTopicos figure {
+    display: inline-block;
+    margin-left: 100px; } }
+@media (min-width: 769px) {
   .parteTopicos figure {
     display: inline-block;
     margin-top: 110px;
@@ -317,7 +361,7 @@ body {
   letter-spacing: 0;
   line-height: 42px;
   margin-left: 15px; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .parteTopicos h2 {
       margin-left: 250px;
       padding-top: 50px;
@@ -336,14 +380,14 @@ body {
   color: #060A24;
   letter-spacing: 0;
   text-align: center; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .parteTopicos figcaption {
       text-align: center;
       height: 64px;
       width: 220px;
       padding-top: 25px; } }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .parteTopicos {
     height: 426px; } }
 
@@ -357,6 +401,9 @@ body {
       width: 375px; } }
   @media (min-width: 376px) {
     .finalpagina {
+      width: 100%; } }
+  @media (min-width: 769px) {
+    .finalpagina {
       width: 100%;
       height: 518px; } }
 
@@ -369,6 +416,9 @@ body {
   line-height: 42px;
   padding-top: 64px; }
   @media (min-width: 376px) {
+    .finalpagina p {
+      transform: translate(1%, 30px); } }
+  @media (min-width: 769px) {
     .finalpagina p {
       transform: translate(1%, 100px); } }
 
@@ -390,10 +440,13 @@ body {
       margin-left: 30px; } }
   @media (min-width: 376px) {
     .finalpagina button {
+      margin-left: 230px; } }
+  @media (min-width: 769px) {
+    .finalpagina button {
       transform: translate(200%, 120px);
       cursor: pointer; } }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .footercont {
     height: 80px;
     width: 100%;
@@ -408,7 +461,7 @@ body {
   line-height: 22px;
   text-align: center;
   padding-top: 5px; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .footercont p {
       margin-left: 70px;
       margin-top: 23px; } }
@@ -422,13 +475,13 @@ body {
 .iconsfoot i {
   text-decoration: none;
   color: #060A24; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .iconsfoot i {
       padding-right: 40px;
       margin-right: 30px;
       margin-top: 20px; } }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .iconsfoot i:hover {
     transform: scale(1.2); } }
 

@@ -1,6 +1,11 @@
 .parteTopicos figure {
     @media (min-width: 376px) {
         display: inline-block;
+        margin-left: 100px;
+    }
+
+    @media (min-width: 769px) {
+        display: inline-block;
         margin-top: 110px;
         transform: translate(300px, -90px);
         margin-left: -15px;
@@ -18,7 +23,7 @@
     line-height: 42px;
     margin-left: 15px;
 
-    @media (min-width: 376px) {
+    @media (min-width: 769px) {
         margin-left: 250px;
         padding-top: 50px;
         font-size: 48px;
@@ -42,7 +47,8 @@
     letter-spacing: 0;
     text-align: center;
 
-    @media (min-width: 376px) {
+
+    @media (min-width: 769px) {
         text-align: center;
         height: 64px;
         width: 220px;
@@ -52,7 +58,7 @@
 
 
 .parteTopicos {
-    @media (min-width: 376px) {
+    @media (min-width: 769px) {
         height: 426px;
     }
 }

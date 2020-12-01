@@ -55,11 +55,18 @@
     background: #0000EC;
     font-family: 'IBM Plex Mono'; 
 
-    @media (min-width: 321px) {
-       
+  
+    @media (min-width: 376px) {
+        display: flex;
+        flex-direction: row;
+        background: #ffff;
+        justify-content: flex-end;
+        top: 10px;
+        left: 20px;
+        
     }
 
-    @media (min-width: 376px) {
+    @media (min-width: 769px) {
         display: flex;
         flex-direction: row;
         background: #ffff;

@@ -11,6 +11,9 @@
       margin-left: 30px; } }
   @media (min-width: 376px) {
     .telefoNosotros img {
+      margin-right: -30px; } }
+  @media (min-width: 769px) {
+    .telefoNosotros img {
       margin-top: -100px;
       position: relative;
       top: 1px; } }
@@ -40,7 +43,7 @@
   @media (min-width: 321px) {
     .parteNosotros p {
       width: 360px; } }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .parteNosotros p {
       width: 464px; } }
 
@@ -48,11 +51,14 @@
   margin: 0%; }
   @media (min-width: 376px) {
     .parteNosotros {
+      display: flex; } }
+  @media (min-width: 769px) {
+    .parteNosotros {
       display: flex;
       height: 500px;
       justify-content: center; } }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .textoNosotros {
     height: 204px;
     width: 464px;

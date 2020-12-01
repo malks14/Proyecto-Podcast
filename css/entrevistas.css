@@ -15,13 +15,17 @@
       width: 375px; } }
   @media (min-width: 376px) {
     .containerinvitadas img {
+      margin: -2px;
+      width: 385px; } }
+  @media (min-width: 769px) {
+    .containerinvitadas img {
       height: 364px;
       width: 480px; } }
 
 .containerinvitadas {
   margin: 0;
   line-height: 0; }
-  @media (min-width: 376px) {
+  @media (min-width: 769px) {
     .containerinvitadas {
       display: flex;
       flex-wrap: wrap; } }

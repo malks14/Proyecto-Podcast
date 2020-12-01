@@ -17,17 +17,24 @@
     }
 
     @media (min-width: 376px) {
+        margin: -2px;
+        width: 385px;
+    }
+
+    @media (min-width: 769px) {
         height: 364px;
         width: 480px;
         
     }
 }
 
+
+
 .containerinvitadas {
     margin: 0;
     line-height: 0;
 
-    @media (min-width: 376px) {
+    @media (min-width: 769px) {
         display: flex;
         flex-wrap: wrap;
        

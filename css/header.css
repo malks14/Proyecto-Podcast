@@ -50,6 +50,14 @@
       flex-direction: row;
       background: #ffff;
       justify-content: flex-end;
+      top: 10px;
+      left: 20px; } }
+  @media (min-width: 769px) {
+    .menuNavigation_list {
+      display: flex;
+      flex-direction: row;
+      background: #ffff;
+      justify-content: flex-end;
       top: 20px;
       left: -50px; } }
 

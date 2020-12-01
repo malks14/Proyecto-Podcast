@@ -3,6 +3,13 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
+@media (min-width: 376px) {
+  .primerInfo {
+    margin-left: 90px; } }
+@media (min-width: 769px) {
+  .primerInfo {
+    margin-left: 120px; } }
+
 .raworld {
   text-decoration: line-through; }
 
@@ -14,6 +21,9 @@ body {
   line-height: 42px;
   margin-left: 15px; }
   @media (min-width: 376px) {
+    .primerInfo h1 {
+      font-size: 50px; } }
+  @media (min-width: 769px) {
     .primerInfo h1 {
       font-size: 64px; } }
 
@@ -38,6 +48,9 @@ body {
       margin-top: 20px; } }
   @media (min-width: 376px) {
     .primerInfo button {
+      margin-left: 150px; } }
+  @media (min-width: 769px) {
+    .primerInfo button {
       cursor: pointer; } }
 
 .primerInfo button:hover {
@@ -52,7 +65,7 @@ body {
   .paleabajo {
     display: inline-block; } }
 
-@media (min-width: 321px) {
+@media (min-width: 376px) {
   .dotblue {
     color: #0000EC; } }
 
@@ -70,9 +83,5 @@ body {
   .yabajo::after {
     content: "\a";
     white-space: pre; } }
-
-@media (min-width: 376px) {
-  .primerInfo {
-    margin-left: 120px; } }
 
 /*# sourceMappingURL=primerseccion.css.map */
